@@ -1,1 +1,10 @@
 remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+
+title: mtmuehl
+show_downloads: false
+
+# Blog settings
+permalink: /blog/:year/:month/:day/:title
